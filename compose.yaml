@@ -1,0 +1,16 @@
+services:
+
+  servicio1:
+    image: examen:217O03055
+    ports:
+      - "8081:80"
+
+  servicio2:
+    image: examen:217O03055
+    ports:
+      - "8082:80"
+
+  servicio3:
+    image: examen:217O03055
+    ports:
+      - "8083:80"
